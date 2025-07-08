@@ -1,0 +1,33 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+
+# Django specific
+db.sqlite3
+*.log
+*.pot
+*.pyc
+
+# Media files (user uploads)
+media/
+
+# VSCode, PyCharm, OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
+.env
+
+# Migrations (optional: keep if you want to share migration files)
+**/migrations/*.pyc
+**/migrations/__pycache__/

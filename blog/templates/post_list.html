@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>All Posts</h2>
+<ul>
+    {% for post in posts %}
+        <li><strong>{{ post.title }}</strong>: {{ post.content }}</li>
+    {% endfor %}
+</ul>
+
+<a href="{% url 'create_post' %}">Add New Post</a>
+</body>
+</html>
